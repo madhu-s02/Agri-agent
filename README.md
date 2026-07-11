@@ -1,6 +1,6 @@
 # 🌾 AgriBot – Smart Farming Advisor
 
-An AI-powered Smart Farming Advice web application built with **Python Flask** and **IBM watsonx.ai (Llama models)**. Designed for farmers across Tamil Nadu's six agro-climatic zones, supporting both **English and Tamil** input/output.
+An AI-powered Smart Farming Advice web application built with **Python Flask** and **IBM watsonx.ai (Llama model)**. Designed for farmers across Tamil Nadu's six agro-climatic zones, supporting both **English and Tamil** input/output.
 
 ---
 
@@ -8,9 +8,9 @@ An AI-powered Smart Farming Advice web application built with **Python Flask** a
 
 | Feature | Description |
 |---|---|
-| 💬 AI Chat | Conversational farming advice powered by IBM Granite model |
+| 💬 AI Chat | Conversational farming advice powered by Llama model |
 | 🌦 Weather Check | Real-time weather via Open-Meteo API (no key required) |
-| 🌾 Crop & Season Advice | Granite model knowledge for Tamil Nadu zones |
+| 🌾 Crop & Season Advice | Llama model knowledge for Tamil Nadu zones |
 | 💰 Mandi Price | Simulated indicative APMC prices |
 | 📊 Cost-Benefit Estimator | Per-acre cost breakdown + expected profit |
 | 📋 Scheme Finder | PMFBY, PM-KISAN, seed subsidies & more |
@@ -96,7 +96,7 @@ The 2-column button grid above the chat input offers these one-tap actions — a
 | Button | Fields | How It Works |
 |---|---|---|
 | 🌦 **Weather Check** | District name | Geocodes via Open-Meteo → fetches current weather + 4-day forecast. No API key needed. |
-| 🌾 **Crop & Season Advice** | District / zone | Sends query to Granite model; uses its trained agricultural knowledge for Tamil Nadu zones. |
+| 🌾 **Crop & Season Advice** | District / zone | Sends query to Llama model; uses its trained agricultural knowledge for Tamil Nadu zones. |
 | 💰 **Today's Mandi Price** | Crop name | Looks up simulated indicative APMC price from in-memory reference data. |
 | 📊 **Cost-Benefit Estimator** | Crop name, Land (acres) | Static per-acre input costs × land size + modal mandi price = profit/ROI estimate. |
 | 📋 **Scheme Finder** | Crop, Acres, Farmer category | Matches against embedded eligibility rules for PMFBY, PM-KISAN, seed subsidies, NHM, KCC, and more. |
@@ -159,3 +159,9 @@ Paddy · Rice · Wheat · Tomato · Onion · Cotton · Groundnut · Sugarcane ·
 | `Agent error: 401 Unauthorized` | Check your IBM API Key is valid and not expired |
 | Weather tool returns "not found" | Try a nearby major city name (e.g. "Coimbatore" instead of a village name) |
 | Slow first response | Model is initialised on first request — subsequent calls are faster |
+##📸 Sample images
+
+<img width="1517" height="612" alt="Screenshot 2026-07-11 181416" src="https://github.com/user-attachments/assets/8dc1f56d-20c3-4153-8842-f64f799744e0" />
+<img width="862" height="491" alt="Screenshot 2026-07-11 183844" src="https://github.com/user-attachments/assets/58b9bd44-cf80-4bb1-9c5e-d7043313273c" />
+<img width="897" height="578" alt="Screenshot 2026-07-11 183320" src="https://github.com/user-attachments/assets/4de13c2a-b4db-4024-9488-4987642ae747" />
+
