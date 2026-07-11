@@ -1,6 +1,6 @@
 # 🌾 AgriBot – Smart Farming Advisor
 
-An AI-powered Smart Farming Advice web application built with **Python Flask** and **IBM watsonx.ai (Granite models)**. Designed for farmers across Tamil Nadu's six agro-climatic zones, supporting both **English and Tamil** input/output.
+An AI-powered Smart Farming Advice web application built with **Python Flask** and **IBM watsonx.ai (Llama models)**. Designed for farmers across Tamil Nadu's six agro-climatic zones, supporting both **English and Tamil** input/output.
 
 ---
 
