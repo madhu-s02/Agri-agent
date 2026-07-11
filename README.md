@@ -159,6 +159,8 @@ Paddy · Rice · Wheat · Tomato · Onion · Cotton · Groundnut · Sugarcane ·
 | `Agent error: 401 Unauthorized` | Check your IBM API Key is valid and not expired |
 | Weather tool returns "not found" | Try a nearby major city name (e.g. "Coimbatore" instead of a village name) |
 | Slow first response | Model is initialised on first request — subsequent calls are faster |
+
+
 ##📸 Sample images
 
 <img width="1517" height="612" alt="Screenshot 2026-07-11 181416" src="https://github.com/user-attachments/assets/8dc1f56d-20c3-4153-8842-f64f799744e0" />
